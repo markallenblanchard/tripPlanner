@@ -6,8 +6,36 @@
   <script src="./bundle.js" defer></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
 </head>
+
 <body>
-  <div id="map"></div>
+  <header>
+      <nav id="navbar">
+        <div id="title">TripPlanner</div>
+      </nav>
+  </header>
+
+  <section id="map"></section>
+
+  <section id="activities">
+      <div id="Hotel">Hotel
+          <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+      </div>
+      <div >Restaurants</div>
+      <div >Things to do</div>
+  </section>
+
+  <div id="itinerary">
+      <div id="My Hotel"></div>
+      <div id="My Restaurants"></div>
+      <div id="My Activities"></div>
+  </div>
 </body>
 </html>
 
